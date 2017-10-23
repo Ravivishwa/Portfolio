@@ -1,7 +1,19 @@
 .affix {
       top: 0;
+    
       width: 100%;
+
   }
+  h1 {
+  margin: 0;
+  padding: 0;
+}h2 {
+  margin: 0;
+  padding: 0;
+}h3{
+  margin: 0;
+  padding: 0;
+}
 
   .affix + .container-fluid {
       padding-top: 70px;
@@ -12,50 +24,50 @@
 body {margin:0;}
 .logo{
 	height: 40px;
-	width: 35px;
+	width: 40px;
 	padding-top: 12px;
 	padding-left: 12px;
+
 	
 }
-/*.homeback{
-	{
-    background-image: url("back.jpg");
+.blacklogo{
+	padding-left: 550px;
+	padding-top: 25px;
+	height: 200px;
+}
+.n{
+	float: right;
+}
+.back{
+	background-image: url("back.jpg") ;
+    width: 100%;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+    margin-top: -20px;
+  
+   
 }
 
-}
-ul {
+
+.nav navbar-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: blue;s
      opacity: .4;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-li {
+#home{
     float: right;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
 
-.active {
-    background-color: #4CAF50;
-}*/
