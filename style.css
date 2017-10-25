@@ -43,12 +43,14 @@ ul.topnav li.right {float: right;}
 
 
 }
-.logo{
-  height: 40px;
-  width: 76px;
-  padding-top: 7px;
-  padding-left: 40px;
 
+
+.logo{
+  height: 25px;
+  width: 25px;
+ /* padding-top: 7px;
+  padding-left: 40px;
+*/
   
 }
 .blacklogo{
@@ -57,6 +59,21 @@ ul.topnav li.right {float: right;}
   height: 200px;
 }
 
+/*downbutton*/
+
+.btn{
+  
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-align:center
+
+} 
+/*downbutton*/
 .back{
 	background-image: url("back.jpg");
     width: 100%;
@@ -67,7 +84,7 @@ ul.topnav li.right {float: right;}
     background-size: cover;
     display: block;
     margin-top: -20px;
-
+  
   
    
 }
@@ -81,14 +98,14 @@ ul.topnav li.right {float: right;}
     background-size: cover;
     display: block;
         margin-top: -20px;
+        position: static;
    /* opacity: .4;*/
+ }
   
   
-   
-}
 
 
-.nav navbar-nav {
+/*.nav navbar-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -99,10 +116,5 @@ ul.topnav li.right {float: right;}
     top: 0;
     width: 100%;
 }
-
-#home{
-    float: right;
-}
-
-
+*/
 
