@@ -71,13 +71,7 @@ ul.topnav li.right {float: right;}
     background-size: cover;
     display: block;
     margin-top: -20px;
-    color: white;
-
-
-
-  
-  
-   
+    color: red;
 }
 .tech{
   background-image: url("images/back.jpg") ;
@@ -90,7 +84,7 @@ ul.topnav li.right {float: right;}
     display: block;
         margin-top: -20px;
         position: static;
-        
+        filter: brightness(50%);
       color: white
    /* opacity: .4;*/
  }
@@ -105,8 +99,9 @@ ul.topnav li.right {float: right;}
     display: block;
         margin-top: -20px;
         position: static;
+        filter: brightness(50%);
         
-      color: white
+      color: red;
    /* opacity: .4;*/
  }
   
@@ -193,12 +188,7 @@ ul.topnav li.right {float: right;}
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
-}
-@media(min-width:767px) {
-    #6 {
-        margin: 0 0 30px;
-    }
-}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -258,8 +248,63 @@ ul.topnav li.right {float: right;}
     transform: rotate(90deg);
 }
 
+/*,,,,,,,,,,,,,footer*/
+footer{
+  width: 100%;
+  height: 450px;
+  background-color: #183951;
+  margin-top: 500px;
 }
+#foot {
+  width: 1000px;
+  height: 100%;
+  margin-top: 0 auto;
+}
+.foottext{
+  color: #ffffff;
+}
+div.social{
+  float: left;
+  margin-top: 20px;
+}
+a.social{
+  margin-right: 15px;
+}
+div.contact{
+  float: right;
+
+}
+label{
+  color: #ffffff;
+}
+input.text{
+  height: 20px;
+  width: 250px;
+  border-radius: 3px;
+  border: none;
+}
+textarea.message{
+  height: 100px;
+  width: 250px;
+    border-radius: 3px;
+  border: none;
+
+}
+input.submit{
+  width: 60px;
+  height: 30px;
+  background-color: #ffffff;
+  color: #183951;
+  border: none;
+  border-radius: 3px;
+}
+
+input.submit:hover{
+ text-decoration: underline;
+}
+
 .footer_bottom_part{
   padding:24px 0;
   border-top:1px solid #cbd0d4;
+  text-align: center;
 }
