@@ -9,7 +9,7 @@
       padding-top: 70px;
   }
  
-  }
+ 
 body {margin:0;}
 ul.topnav {
     list-style-type: none;
@@ -62,7 +62,7 @@ ul.topnav li.right {float: right;}
 /*downbutton*/
 .intro{
 
-	background-image: url("back1.jpg");
+	background-image: url("images/back1.jpeg");
     width: 100%;
     min-height: 550px;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ ul.topnav li.right {float: right;}
    
 }
 .tech{
-  background-image: url("footer.jpg") ;
+  background-image: url("images/back.jpg") ;
     width: 100%;
     min-height: 500px;
     background-attachment: fixed;
@@ -90,7 +90,22 @@ ul.topnav li.right {float: right;}
     display: block;
         margin-top: -20px;
         position: static;
-        filter: brightness(50%);
+        
+      color: white
+   /* opacity: .4;*/
+ }
+ .tech2{
+  background-image: url("images/foot.jpeg") ;
+    width: 100%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+        margin-top: -20px;
+        position: static;
+        
       color: white
    /* opacity: .4;*/
  }
@@ -241,4 +256,10 @@ ul.topnav li.right {float: right;}
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+}
+.footer_bottom_part{
+  padding:24px 0;
+  border-top:1px solid #cbd0d4;
 }
